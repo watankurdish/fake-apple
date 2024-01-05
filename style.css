@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
 @import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
 /*Общие стили*/
 a{color: #51ACFF;}
 a:active {opacity: 0.5;}
@@ -115,7 +115,7 @@ main .link {font-size: 50px; font-weight: 700;}
     .up-to, .desc {font-size: 13px;}
 }
 /*меньше 597 пикселей*/
-@media (max-width: 597px) {
+@media (max-width: 611px) {
     .title {max-width: 90%; font-size: 30px;}
     main .link {font-size: 20px;}
     .point {width: 13px; margin-left: 0.22em;}
