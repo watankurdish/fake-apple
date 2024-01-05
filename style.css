@@ -97,6 +97,7 @@ main .link {font-size: 50px; font-weight: 700;}
     .description {width: 80%;}
     .textcontent {max-width: 720px; font-size: 18px;}
     .socials .logo {width: 25px; height: 25px;}
+
 }
 /*Для смартфонов*/
 @media screen and (max-width: 767px) {
@@ -109,11 +110,9 @@ main .link {font-size: 50px; font-weight: 700;}
     .textcontent {max-width: 550px; font-size: 14px;}
     .up-to, .desc {font-size: 15px;}
     .cifra {font-size: 52px;}
-    .socials {max-width: 22%;}
+    .socials {max-width: 25%;}
 }
-@media (max-width: 674px) {
-    .up-to, .desc {font-size: 13px;}
-}
+@media (max-width: 674px) {.up-to, .desc {font-size: 13px;}}
 /*меньше 597 пикселей*/
 @media (max-width: 611px) {
     .title {max-width: 90%; font-size: 30px;}
